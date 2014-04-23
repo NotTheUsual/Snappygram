@@ -199,8 +199,9 @@ h2 {
 
 #settings-dropdown {
   position: absolute;
-  right: 5em;
+  right: 1.6em;
   top: 4em;
+  transition: top 0.25s ease;
   display: block;
   background-color: #fafafa;
   text-align: left;
@@ -220,7 +221,7 @@ h2 {
   }
 
   &.hidden {
-    display: none;
+    top: -1em;
   }
 }
 
